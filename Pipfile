@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pyagentx = {ref = "python3", git = "https://github.com/rayed/pyagentx.git"}
+
+[dev-packages]
+"autopep8" = "*"
+
+[requires]
+python_version = "3.6"
+
+[scripts]
+start = "sudo python hello.py"
